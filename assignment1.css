@@ -1,0 +1,78 @@
+body {
+  background: lightgrey url("astronomy-backlit-blue-mountains-1434608.jpg")
+    no-repeat top left;
+  background-size: cover;
+  background-attachment: fixed;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+h1,
+h2 {
+  color: yellow;
+}
+h3,
+h4 {
+  color: aqua;
+}
+header {
+  background-color: rgb(11, 131, 171, 0.756);
+  border: 10px double orange;
+}
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 2rem;
+  flex-direction: column;
+  font-size: medium;
+  font-weight: 600;
+}
+.p2,
+.p4,
+.p3 {
+  display: flex;
+  margin-right: 10%;
+  margin-left: 10%;
+  border-radius: 10px;
+  animation: border 1s infinite;
+  padding: 10px;
+  color: rgb(0, 255, 255);
+  font-size: large;
+  background-color: rgb(0, 0, 0, 0.5);
+  text-shadow: 10px 10px 20px black;
+}
+@keyframes border {
+  0% {
+    border: 5px solid green;
+    transform: translate(0, 0);
+  }
+  25% {
+    border: 5px solid orangered;
+    transform: translate(0, 0);
+  }
+  50% {
+    border: 5px solid purple;
+    transform: translate(0, 0);
+  }
+  75% {
+    border: 5px solid peru;
+    transform: translate(0, -0);
+  }
+  100% {
+    border: 5px solid goldenrod;
+    transform: translate(0, 0);
+  }
+}
+.p1,
+.last {
+  color: yellow;
+  padding: 10px;
+  font-size: large;
+  text-shadow: 5px 5px 20px black;
+  background-color: rgb(0, 0, 0, 0.7);
+}
